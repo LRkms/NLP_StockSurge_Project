@@ -1,0 +1,80 @@
+# Python 가상환경
+venv/
+env/
+.venv/
+.env/
+virtualenv/
+ENV/
+
+# Python 캐시 및 바이트코드
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pip-wheel-metadata/
+
+# 임시 파일
+*.tmp
+*.bak
+*.swp
+*~
+*.log
+*.cache
+
+# 데이터 파일
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sql
+/data/
+/raw_data/
+/processed_data/
+
+# Jupyter Notebook 관련
+*.ipynb_checkpoints/
+Untitled*.ipynb
+
+# 테스트 및 커버리지
+.coverage
+*.lcov
+/coverage/
+.pytest_cache/
+.tox/
+.hypothesis/
+.dmypy.json
+
+# 패키지 및 빌드
+/dist/
+/build/
+/out/
+/bin/
+/lib/
+/lib64/
+/sdist/
+/wheels/
+/pip-wheel-metadata/
+
+# IDE 및 편집기 설정
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 운영체제 관련
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 환경 변수 및 민감한 정보
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets.json
+config.yaml
