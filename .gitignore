@@ -1,4 +1,4 @@
-# Python 가상환경
+# 가상환경
 venv/
 env/
 .venv/
@@ -6,7 +6,7 @@ env/
 virtualenv/
 ENV/
 
-# Python 캐시 및 바이트코드
+# 캐시 및 바이트코드
 __pycache__/
 *.py[cod]
 *$py.class
