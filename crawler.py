@@ -39,7 +39,7 @@ categories = {
     "환율": "https://finance.naver.com/news/news_list.naver?mode=LSS3D&section_id=101&section_id2=258&section_id3=429&date={date}"
 }
 
-# 드라이버 설정 (더 빠른 설정)
+# 드라이버 설정
 def create_driver():
     options = Options()
     options.add_argument("--headless=new")
